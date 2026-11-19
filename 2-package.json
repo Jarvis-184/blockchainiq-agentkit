@@ -1,0 +1,21 @@
+{
+  "name": "blockchainiq-agentkit-action-provider",
+  "version": "1.0.0",
+  "description": "Coinbase AgentKit action provider for the Blockchain IQ x402 crypto data API (USDC micropayments on Base).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node example.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/agentkit": "^0.7.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.0.0"
+  }
+}
